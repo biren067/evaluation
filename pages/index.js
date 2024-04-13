@@ -1,5 +1,4 @@
 import { Inter } from "next/font/google";
-import CompoundInterest from "@/components/CompoundInterest";
 import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
