@@ -19,7 +19,7 @@ function Index(){
     setCalcDay(currentDay);
     setCalcMonth(currentMonth);
     setCalcYear(currentYear);
-  }, []);
+  },[currentDay,currentMonth,currentYear]);
 
   const [result, setResult] = useState('');
 
