@@ -25,7 +25,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router';
-import styles from '@/styles/Header.module.css'; // Import your CSS module
+import styles from '@/styles/header.module.css'; // Import your CSS module
 
 function Header() {
   const router = useRouter();
